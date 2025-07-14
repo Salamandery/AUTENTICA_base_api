@@ -267,41 +267,102 @@ curl -X PUT http://localhost:3000/users \
 
 ## 📜 Scripts Disponíveis
 
+<div align="center">
+
+![Scripts](https://img.shields.io/badge/Scripts-Available-blue?style=for-the-badge)
+![Development](https://img.shields.io/badge/Dev-Tools-green?style=for-the-badge)
+
+</div>
+
+| Categoria | Comando | Descrição |
+|-----------|---------|-----------|
+| **🛠️ Desenvolvimento** | `yarn dev` | Inicia servidor com nodemon |
+| **🚀 Produção** | `yarn start` | Inicia servidor em produção |
+| **🗄️ Banco de Dados** | `yarn sequelize db:migrate` | Executa migrations |
+| | `yarn sequelize db:seed:all` | Executa seeds |
+| | `yarn sequelize db:drop` | Remove banco de dados |
+| **🔧 Linting** | `yarn lint` | Executa ESLint |
+| | `yarn lint:fix` | Corrige problemas do ESLint |
+
+### 💻 **Exemplos de Uso**
 ```bash
-# Desenvolvimento
-yarn dev          # Inicia servidor com nodemon
+# 🚀 Iniciar desenvolvimento
+yarn dev
 
-# Produção
-yarn start        # Inicia servidor em produção
+# 🔧 Verificar código
+yarn lint
 
-# Banco de dados
-yarn sequelize db:migrate    # Executa migrations
-yarn sequelize db:seed:all   # Executa seeds
-yarn sequelize db:drop       # Remove banco de dados
-
-# Linting e formatação
-yarn lint         # Executa ESLint
-yarn lint:fix     # Corrige problemas do ESLint
+# 🗄️ Configurar banco
+yarn sequelize db:migrate
 ```
 
 ## 🔧 Configurações
 
-### ESLint
-Configurado com Airbnb Base + Prettier para manter consistência de código.
+<div align="center">
 
-### Prettier
-Formatador automático de código com configurações otimizadas.
+![Configuration](https://img.shields.io/badge/Config-Optimized-blue?style=for-the-badge)
+![Code Quality](https://img.shields.io/badge/Quality-High-green?style=for-the-badge)
 
-### Nodemon
-Hot reload configurado com Sucrase para suporte a ES6+.
+</div>
+
+### 🛠️ **Ferramentas de Desenvolvimento**
+
+| Ferramenta | Configuração | Descrição |
+|------------|--------------|-----------|
+| **🔍 ESLint** | Airbnb Base + Prettier | Linter com padrões profissionais |
+| **💅 Prettier** | Configurações otimizadas | Formatador automático de código |
+| **🔄 Nodemon** | Sucrase para ES6+ | Hot reload para desenvolvimento |
+
+### 📋 **Configurações Específicas**
+
+#### 🔍 **ESLint**
+- **Padrão:** Airbnb Base
+- **Integração:** Prettier
+- **Regras:** Otimizadas para Node.js
+
+#### 💅 **Prettier**
+- **Formatação:** Automática
+- **Integração:** ESLint
+- **Configuração:** Padrões consistentes
+
+#### 🔄 **Nodemon**
+- **Compilador:** Sucrase
+- **Suporte:** ES6+ (import/export)
+- **Hot Reload:** Automático
 
 ## 📝 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+<div align="center">
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![Open Source](https://img.shields.io/badge/Open-Source-brightgreen?style=for-the-badge)]()
+
+</div>
+
+Este projeto está sob a **licença MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
 ## 👤 Autor
-by **Rodolfo M. F. Abreu**
+
+<div align="center">
+
+![Developer](https://img.shields.io/badge/Developer-Rodolfo%20M.%20F.%20Abreu-blue?style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Expert-Node.js-green?style=for-the-badge)
+![Full Stack](https://img.shields.io/badge/Full-Stack-orange?style=for-the-badge)
+
+**by [Rodolfo M. F. Abreu](https://github.com/rodolfomfabreu)**
+
+</div>
+
+---
+
+<div align="center">
+
+**Desenvolvido com ❤️ usando Node.js, Express e Sequelize**
+
+[![Made with Love](https://img.shields.io/badge/Made%20with-Love-red.svg?style=for-the-badge)]()
+
+</div>
 
 
